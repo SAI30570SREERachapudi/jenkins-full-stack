@@ -14,7 +14,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/onlineticket">
       <Header />
       <div style={{ display: "flex", height: "100vh" }}>
         <div style={{ flexGrow: 1, overflowY: "auto" }}>
